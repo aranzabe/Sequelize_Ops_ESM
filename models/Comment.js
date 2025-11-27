@@ -1,7 +1,7 @@
 'use strict';
 import { Sequelize, DataTypes, Model } from 'sequelize';
 import db from '../database/connection.js';
-import User from './user.js';
+import User from './User.js';
 
   class Comment extends Model {
    

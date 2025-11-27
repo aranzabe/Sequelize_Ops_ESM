@@ -2,7 +2,7 @@
 'use strict';
 import { Sequelize, DataTypes, Model } from 'sequelize';
 import db from '../database/connection.js';
-import Comment from './comments.js';
+import Comment from './Comment.js';
 
 class User extends Model {
     static associate(models) {

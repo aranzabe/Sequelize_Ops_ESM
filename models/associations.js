@@ -1,5 +1,5 @@
-import User from './user.js';
-import Comment from './comments.js';
+import User from './User.js';
+import Comment from './Comment.js';
 
 
 
