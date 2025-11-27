@@ -74,6 +74,7 @@ class CommentService {
     }
 
 
+    //SELECT AVG(puntuacion) AS averageScore FROM Comments;
     getPuntuacionMedia  = async() => {
         const resultado = await Comment.findAll({
             attributes: [[Sequelize.fn('AVG', Sequelize.col('puntuacion')), 'averageScore']]
